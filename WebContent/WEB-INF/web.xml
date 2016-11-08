@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://java.sun.com/xml/ns/javaee" 
+xmlns:web="http://java.sun.com/xml/ns/javaee" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <param-name>demo3</param-name>
+    <param-value>dddddeeeeemmmmmoooooo33333</param-value>
+  </context-param>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/jsp/errorPage.jsp</location>
+  </error-page>
+  <servlet>
+  	<servlet-name>S02_cookie</servlet-name>
+  	<servlet-class>org.tj.servlet.S02_cookie</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>S02_cookie</servlet-name>
+    <url-pattern>/S02_cookie</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>ContextTest</servlet-name>
+    <servlet-class>servletCotext.ContextTest</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContextTest2</servlet-name>
+    <servlet-class>servletCotext.ContextTest2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseTest1</servlet-name>
+    <servlet-class>servletResponse.ResponseTest1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseTest2</servlet-name>
+    <servlet-class>servletResponse.ResponseTest2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseTest3</servlet-name>
+    <servlet-class>servletResponse.ResponseTest3</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResponseTest4</servlet-name>
+    <servlet-class>servletResponse.ResponseTest4</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RequestTest1</servlet-name>
+    <servlet-class>servletRequest.RequestTest1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>S01</servlet-name>
+    <servlet-class>org.tj.servlet.S01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ContextTest</servlet-name>
+    <url-pattern>/ContextTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContextTest2</servlet-name>
+    <url-pattern>/ContextTest2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseTest1</servlet-name>
+    <url-pattern>/ResponseTest1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseTest2</servlet-name>
+    <url-pattern>/ResponseTest2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseTest3</servlet-name>
+    <url-pattern>/ResponseTest3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseTest4</servlet-name>
+    <url-pattern>/ResponseTest4</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestTest1</servlet-name>
+    <url-pattern>/RequestTest1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>S01</servlet-name>
+    <url-pattern>/S01</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

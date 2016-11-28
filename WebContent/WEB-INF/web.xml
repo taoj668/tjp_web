@@ -4,6 +4,9 @@
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
+  <session-config>
+    <session-timeout>3</session-timeout>
+  </session-config>
   <context-param>
     <param-name>demo3</param-name>
     <param-value>dddddeeeeemmmmmoooooo33333</param-value>
@@ -136,5 +139,4 @@
     <servlet-name>Kaptcha</servlet-name>
     <url-pattern>/Kaptcha.jpg</url-pattern>
   </servlet-mapping>
-  
 </web-app>
